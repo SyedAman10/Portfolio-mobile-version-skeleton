@@ -12,6 +12,7 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  color: white;
 }
 
 li {
@@ -49,30 +50,55 @@ li {
 }
 
 .social-media {
-  justify-content: flex-start;
-  max-width: 50vw;
-  flex-wrap: wrap;
-  gap: 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 12px;
+  list-style: none;
+  padding: 22px 55px;
 }
 
 .section-title {
-  color: #ff6b00;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
   font-weight: normal;
   font-size: 56px;
   line-height: 64px;
-  text-align: center;
+  color: #f55800;
+  padding-top: 120px;
+  padding-left: 24px;
 }
 
 .section-subtitle {
-  color: #fff5e1;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 24px;
-  text-align: center;
+  line-height: 32px;
+  color: #fff5e1;
+  display: flex;
+  align-items: center;
+  padding: 10px 24px;
 }
 
 .section-text {
-  color: #fff;
-  max-width: 100%;
-  line-height: 24px;
-  text-align: center;
+   font-family: "Poppins", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   color: white;
+   padding-left: 24px;
+}
+
+a {
+   color: #fff;
+   text-decoration: none;
 }
